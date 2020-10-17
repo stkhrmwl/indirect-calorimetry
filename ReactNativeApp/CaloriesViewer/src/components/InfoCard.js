@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 });
 
 const InfoCard = (props) => {
-  const { age, w, hrrest, hrmax, vo2max, onPress } = props;
+  const { age, w, rhr, hrmax, vo2max, onPress } = props;
 
   return (
     <View style={styles.container}>
@@ -26,7 +26,7 @@ const InfoCard = (props) => {
       <View style={styles.mainContainer}>
         <Text>年齢: {age} 歳</Text>
         <Text>体重: {w} kg</Text>
-        <Text>安静時心拍数: {hrrest} 回/分</Text>
+        <Text>安静時心拍数: {rhr} 回/分</Text>
         <Text>最大心拍数: {hrmax} 回/分</Text>
         <Text>最大酸素摂取量: {vo2max} ml/分</Text>
       </View>
