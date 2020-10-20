@@ -55,7 +55,7 @@ const CaroliesCard = (props) => {
       <View style={styles.mainContainer}>
         <View style={styles.leftContainer} />
         <View style={styles.centerContainer}>
-          <Text style={styles.value}>{ee}</Text>
+          <Text style={styles.value}>{parseInt(ee)}</Text>
         </View>
         <View style={styles.rightContainer}>
           <Text style={styles.unit}>kcal</Text>

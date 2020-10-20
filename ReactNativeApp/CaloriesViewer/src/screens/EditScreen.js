@@ -183,7 +183,7 @@ export default EditScreen = (props) => {
           />
           <View style={{ margin: 8 }} />
         </View>
-        <Text>Open up App.js to start working on your app!</Text>
+        <Text>マスクを用いた消費カロリー推定システム (prototype)</Text>
         <StatusBar style="auto" />
       </SafeAreaView>
     </Fragment>

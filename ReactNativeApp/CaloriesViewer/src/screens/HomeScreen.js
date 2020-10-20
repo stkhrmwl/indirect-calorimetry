@@ -59,7 +59,7 @@ export default HomeScreen = (props) => {
             navigation.navigate('Edit', { user: user });
           }}
         />
-        <Text>Open up App.js to start working on your app!</Text>
+        <Text>マスクを用いた消費カロリー推定システム (prototype)</Text>
         <StatusBar style="auto" />
       </SafeAreaView>
     </Fragment>
