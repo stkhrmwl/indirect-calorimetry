@@ -39,6 +39,8 @@ const styles = StyleSheet.create({
 });
 
 const CaroliesCard = (props) => {
+  const { ee, onPress } = props;
+
   return (
     <View style={styles.container}>
       <CardTitle
@@ -53,13 +55,13 @@ const CaroliesCard = (props) => {
       <View style={styles.mainContainer}>
         <View style={styles.leftContainer} />
         <View style={styles.centerContainer}>
-          <Text style={styles.value}>1490</Text>
+          <Text style={styles.value}>{ee}</Text>
         </View>
         <View style={styles.rightContainer}>
           <Text style={styles.unit}>kcal</Text>
         </View>
       </View>
-      <BoxButton title={'更新する'} />
+      <BoxButton title={'更新する'} onPress={onPress} />
       <View style={{ margin: 8 }} />
     </View>
   );
