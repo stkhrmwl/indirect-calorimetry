@@ -1,6 +1,7 @@
 ENV.*
 *.pem
 lib/
+service-account.json
 
 .pio
 .vscode/.browse.c_cpp.db*

@@ -20,7 +20,7 @@ bool isReached = false;
 DynamicJsonDocument doc(1024);
 
 unsigned long lastResetingTime = 0;
-const unsigned long resetingInterval = 10 * 1000L; // 60 sec
+const unsigned long resetingInterval = 60 * 1000L; // 20 sec
 
 void setup() {
     Serial.begin(115200);
