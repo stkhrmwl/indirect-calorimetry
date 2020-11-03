@@ -4,7 +4,7 @@ import { StyleSheet, SafeAreaView, View, Text } from 'react-native';
 import firebase from 'firebase';
 import 'firebase/firestore';
 
-import CaroliesCard from '../components/CaroliesCard';
+import CaroliesCard from '../components/CaloriesCard';
 import InfoCard from '../components/InfoCard';
 
 const styles = StyleSheet.create({

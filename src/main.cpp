@@ -103,6 +103,7 @@ void measure() {
         vals[i] = vals[i - 1];
     }
     vals[0] = sgp.getECO2();
+    Serial.println(vals[0]);
 }
 
 void publish() {
